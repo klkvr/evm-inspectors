@@ -53,3 +53,8 @@ snapbox = "0.6"
 [features]
 serde = ["dep:serde", "revm/serde"]
 js-tracer = ["dep:boa_engine", "dep:boa_gc"]
+
+[patch.crates-io]
+revm = { git = "https://github.com/bluealloy/revm", rev = "c04c2b24" }
+revm-primitives = { git = "https://github.com/bluealloy/revm", rev = "c04c2b24" }
+alloy-eips = { git = "https://github.com/alloy-rs/alloy.git", rev = "678617e" }
