@@ -34,10 +34,10 @@ alloy-rpc-types-eth = "0.9"
 alloy-rpc-types-trace = "0.9"
 alloy-sol-types = "0.8"
 alloy-primitives = { version = "0.8", features = ["map"] }
-revm = { git = "https://github.com/bluealloy/revm.git", rev = "958f735", default-features = false, features = [
+revm = { git = "https://github.com/bluealloy/revm.git", rev = "1d95779", default-features = false, features = [
     "std",
 ] }
-revm-inspector = { git = "https://github.com/bluealloy/revm.git", rev = "958f735", default-features = false, features = [
+revm-inspector = { git = "https://github.com/bluealloy/revm.git", rev = "1d95779", default-features = false, features = [
     "std",
     "serde-json",
 ] }
